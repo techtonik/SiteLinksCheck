@@ -71,9 +71,8 @@ class Sitecheck():
 		return allbrokenlinks
 				
 				
-#http://www.indianblooddonors.com
 if __name__=="__main__":
-	z= Sitecheck("http://www.ca.com")
+	z= Sitecheck("https://pypi.python.org/pypi")
 	print z.getalllinks()
 	print z.getinternallinks()
 	print z.getbrokeninternallinks()
